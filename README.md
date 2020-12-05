@@ -38,3 +38,5 @@ On Kali Linux:
 - run HELP to check the available commands
 - find the command will make the vuln server crash.
 - to find, run commnand "generic_send_tcp <vuln server's IP> 9999 tats.psk 0 0" (tats.psk is the script that run some simple command. That is on the repository. U cant check it out)
+- run all alailable command to check which one make it crash.
+- I found it crash on the trun commnad, u can try other commands.
