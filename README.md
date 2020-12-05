@@ -26,3 +26,9 @@ Download:
  ## Let's start hacking into vuln server:
  
  
+### 1.Find vulnerabilities
+On Vuln server:
+- Run immunity debugger as admin.
+- Run vulnserver.exe as admin
+- Attach vulnserver process to immunity debugger.
+- Hit the button PLAY on immunity debugger to RUN, status will be at the boton right conner
