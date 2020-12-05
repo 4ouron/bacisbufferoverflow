@@ -32,3 +32,9 @@ On Vuln server:
 - Run vulnserver.exe as admin
 - Attach vulnserver process to immunity debugger.
 - Hit the button PLAY on immunity debugger to RUN, status will be at the boton right conner
+
+On Kali Linux:
+- run command "nc -nv <vuln server's IP>" 9999 (9999 is the vuln server's Port)
+- run HELP to check the available commands
+- find the command will make the vuln server crash.
+- to find, run commnand "generic_send_tcp <vuln server's IP> 9999 tats.psk 0 0" ()
